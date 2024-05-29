@@ -1,0 +1,505 @@
+# depslib dependency file v1.0
+1716868771 source:c:\users\victor\desktop\examen final de progra\fut\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<unistd.h>
+	"Bitacora.h"
+	"usuarios.h"
+	"Login.h"
+	"Entrenador.h"
+	"asignaciom_de_resultados.h"
+	"Equipos.h"
+	"deporte.h"
+	"Horarios.h"
+
+1716671791 source:c:\users\victor\desktop\examen final de progra\fut\src\login.cpp
+	"Login.h"
+	"Bitacora.h"
+	"conio.h"
+
+1716659482 c:\users\victor\desktop\examen final de progra\fut\include\login.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<ctime>
+	<cstring>
+	"Bitacora.h"
+	"usuarios.h"
+
+1716868833 c:\users\victor\desktop\examen final de progra\fut\include\bitacora.h
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<cstring>
+	"usuarios.h"
+
+1716606682 c:\users\victor\desktop\examen final de progra\fut\include\usuarios.h
+	<iostream>
+
+1716604400 source:c:\users\victor\desktop\examen final de progra\fut\src\usuarios.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"usuarios.h"
+	"Login.h"
+	"Bitacora.h"
+
+1716868703 source:c:\users\victor\desktop\examen final de progra\fut\src\bitacora.cpp
+	<cstring>
+	"Bitacora.h"
+	"Login.h"
+
+1716676699 source:c:\users\victor\desktop\examen final de progra\fut\src\entrenador.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+	"Entrenador.h"
+
+1716709514 c:\users\victor\desktop\examen final de progra\fut\include\entrenador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<Entrenador.h>
+
+1716705693 source:c:\users\victor\desktop\examen final de progra\fut\src\equipos.cpp
+	"Equipos.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716858577 c:\users\victor\desktop\examen final de progra\fut\include\equipos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Equipos.h"
+
+1716867455 c:\users\victor\desktop\examen final de progra\fut\include\asignaciom_de_resultados.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1716708937 source:c:\users\victor\desktop\examen final de progra\fut\src\horarios.cpp
+	"Horarios.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716708877 c:\users\victor\desktop\examen final de progra\fut\include\horarios.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716868295 source:c:\users\victor\desktop\examen final de progra\fut\src\asignaciom_de_resultados.cpp
+	"asignaciom_de_resultados.h"
+	"Entrenador.h"
+	"Equipos.h"
+	"login.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<random>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"Bitacora.h"
+	"Horarios.h"
+	"deporte.h"
+
+1716705347 c:\users\victor\desktop\examen final de progra\fut\include\deporte.h
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716706514 source:c:\users\victor\desktop\examen final de progra\fut\src\deporte.cpp
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716925537 source:c:\users\calde\downloads\fut\src\asignaciom_de_resultados.cpp
+	"asignaciom_de_resultados.h"
+	"Entrenador.h"
+	"Equipos.h"
+	"login.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<random>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"Bitacora.h"
+	"Horarios.h"
+	"deporte.h"
+
+1716924962 c:\users\calde\downloads\fut\include\asignaciom_de_resultados.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1716709514 c:\users\calde\downloads\fut\include\entrenador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<Entrenador.h>
+
+1716858577 c:\users\calde\downloads\fut\include\equipos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Equipos.h"
+
+1716659482 c:\users\calde\downloads\fut\include\login.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<ctime>
+	<cstring>
+	"Bitacora.h"
+	"usuarios.h"
+
+1716868986 c:\users\calde\downloads\fut\include\bitacora.h
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<cstring>
+	"usuarios.h"
+
+1716606682 c:\users\calde\downloads\fut\include\usuarios.h
+	<iostream>
+
+1716708877 c:\users\calde\downloads\fut\include\horarios.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716705347 c:\users\calde\downloads\fut\include\deporte.h
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716706514 source:c:\users\calde\downloads\fut\src\deporte.cpp
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716676699 source:c:\users\calde\downloads\fut\src\entrenador.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+	"Entrenador.h"
+
+1716705693 source:c:\users\calde\downloads\fut\src\equipos.cpp
+	"Equipos.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716708937 source:c:\users\calde\downloads\fut\src\horarios.cpp
+	"Horarios.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716671791 source:c:\users\calde\downloads\fut\src\login.cpp
+	"Login.h"
+	"Bitacora.h"
+	"conio.h"
+
+1716604400 source:c:\users\calde\downloads\fut\src\usuarios.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"usuarios.h"
+	"Login.h"
+	"Bitacora.h"
+
+1716917271 source:c:\users\calde\downloads\fut\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<unistd.h>
+	"Bitacora.h"
+	"usuarios.h"
+	"Login.h"
+	"Entrenador.h"
+	"asignaciom_de_resultados.h"
+	"Equipos.h"
+	"deporte.h"
+	"Horarios.h"
+
+1716917305 source:c:\users\calde\downloads\fut\src\bitacora.cpp
+	<cstring>
+	"Bitacora.h"
+	"Login.h"
+
+1716999421 source:c:\users\36317\downloads\fut\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+	<unistd.h>
+	"Bitacora.h"
+	"usuarios.h"
+	"Login.h"
+	"Entrenador.h"
+	"asignaciom_de_resultados.h"
+	"Equipos.h"
+	"deporte.h"
+	"Horarios.h"
+
+1716868986 c:\users\36317\downloads\fut\include\bitacora.h
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<cstring>
+	"usuarios.h"
+
+1716606682 c:\users\36317\downloads\fut\include\usuarios.h
+	<iostream>
+
+1716659482 c:\users\36317\downloads\fut\include\login.h
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<ctime>
+	<cstring>
+	"Bitacora.h"
+	"usuarios.h"
+
+1716709514 c:\users\36317\downloads\fut\include\entrenador.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	<Entrenador.h>
+
+1717000911 c:\users\36317\downloads\fut\include\asignaciom_de_resultados.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1716858578 c:\users\36317\downloads\fut\include\equipos.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Equipos.h"
+
+1716705348 c:\users\36317\downloads\fut\include\deporte.h
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716708878 c:\users\36317\downloads\fut\include\horarios.h
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+
+1716998246 source:c:\users\36317\downloads\fut\src\asignaciom_de_resultados.cpp
+	"asignaciom_de_resultados.h"
+	"Entrenador.h"
+	"Equipos.h"
+	"login.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<random>
+	<cstdlib>
+	<ctime>
+	<iomanip>
+	"Bitacora.h"
+	"Horarios.h"
+	"deporte.h"
+
+1716917306 source:c:\users\36317\downloads\fut\src\bitacora.cpp
+	<cstring>
+	"Bitacora.h"
+	"Login.h"
+
+1717000179 source:c:\users\36317\downloads\fut\src\deporte.cpp
+	"deporte.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1717000179 source:c:\users\36317\downloads\fut\src\entrenador.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+	"Entrenador.h"
+
+1717000179 source:c:\users\36317\downloads\fut\src\equipos.cpp
+	"Equipos.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1717000179 source:c:\users\36317\downloads\fut\src\horarios.cpp
+	"Horarios.h"
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+	<string>
+	"Bitacora.h"
+	"Login.h"
+
+1716998479 source:c:\users\36317\downloads\fut\src\login.cpp
+	"Login.h"
+	"Bitacora.h"
+	"conio.h"
+
+1717001146 source:c:\users\36317\downloads\fut\src\usuarios.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"usuarios.h"
+	"Login.h"
+	"Bitacora.h"
+
