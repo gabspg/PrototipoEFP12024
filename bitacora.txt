@@ -1,17 +1,5 @@
-commit a8fcf20eecaf947aee3b71388d3142af7117a7da
+commit b4084df48a8e37ac9a542fc1f36be971268be8ee
 Author: Gabriela Pinto <gpintog1@miumg.edu.gt>
-Date:   Tue May 7 19:28:59 2024 -0600
+Date:   Wed May 29 11:22:03 2024 -0600
 
-    Diagrama de Flujo Aulas
-
-commit 16e41cf7c1ccefe3653c0c213760cf03e197727f
-Author: Gabriela Pinto <gpintog1@miumg.edu.gt>
-Date:   Wed Jan 24 08:49:10 2024 -0600
-
-    primer programa
-
-commit 0c85d3bcb2f1d59babbdbadb73d814d57afdfd57
-Author: edelaguila <54811781+edelaguila@users.noreply.github.com>
-Date:   Fri Jan 19 08:31:27 2024 -0600
-
-    Initial commit
+    Subiendo final
