@@ -1,6 +1,4 @@
 #include "Horarios.h"
-
-
 //Incluyendo las librerias a utilizar
 #include<iostream>
 #include<fstream>
@@ -19,7 +17,7 @@ using namespace std;
 //Constructor alumnos y sus parametros
 Horarios::Horarios(string id, string jornada,string dia,string horario)
 {
-    // Asignando los valores de los par·metros a los atributos del objeto
+    // Asignando los valores de los par√°metros a los atributos del objeto
 
 
     this->id = id;
@@ -74,14 +72,14 @@ string Horarios::getdia()
 void Horarios::menuHorario()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2200", "ALM"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2200", "ALM"); // Par√°metros
 
     //Definiendo Variable int
     int opcion;
@@ -93,7 +91,7 @@ void Horarios::menuHorario()
         //Limpiando pantalla
 		system("cls");
 
-		//Se muestra el diseÒo del sistema de gestion de alumnos
+		//Se muestra el dise√±o del sistema de gestion de alumnos
 		cout<<"+-----------------------------------------------+"<<endl;
 		cout<<"|  BIENVENIDO AL SISTEMA DE GESTION DE HORARIOS    |"<<endl;
 		cout<<"+-----------------------------------------------------+"<<endl;
@@ -117,7 +115,7 @@ void Horarios::menuHorario()
 				    //Funcion para insertar un alumno
 					insertar();
 					//Luego de ingresar un alumno mostrara el mensaje
-					cout<<" -> øDeseas ingresar a otro horario? (S/N): ";
+					cout<<" -> ¬øDeseas ingresar a otro horario? (S/N): ";
 					cin>>continuar;
 
                 //Si la respuesta es s o S, insertara otro estudiante
@@ -159,20 +157,20 @@ void Horarios::insertar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2201", "ALMI"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2201", "ALMI"); // Par√°metros
 
 
     //Limpiando pantalla
     system("cls");
 
-    //Encabezado del diseÒo insertar estudiante
+    //Encabezado del dise√±o insertar estudiante
     cout<<"+---------------------------------------------------------+"<< endl;
     cout<<"|                Agregar detalles del Trabajador          |"<< endl;
     cout<<"+---------------------------------------------------------+"<< endl;
@@ -236,14 +234,14 @@ void Horarios::insertar()
 void Horarios::desplegar()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2202", "ALMD"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2202", "ALMD"); // Par√°metros
 
     //Limpiando pantalla
     system("cls");
@@ -296,14 +294,14 @@ void Horarios::modificar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2203", "ALMM"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2203", "ALMM"); // Par√°metros
 
 
     //Limpiando pantalla
@@ -366,7 +364,7 @@ cout<<" +------------------------------------------------+"<< endl;
     cin.getline(horario1.horario, 20);
 
 
-            // Posiciona el puntero de escritura al inicio del registro que se est· modificando
+            // Posiciona el puntero de escritura al inicio del registro que se est√° modificando
             archivo1.seekp(-static_cast<int>(sizeof(HorariosC)), ios::cur);
 
             // Escribe  nuevos detalles del entrenador en el archivo
@@ -379,7 +377,7 @@ cout<<" +------------------------------------------------+"<< endl;
 
     //si no lo encuentra mostrara el siguiente mensaje
     if (!encontrado) {
-        cout << "No se encontrÛ un Producto con el ID proporcionado." << endl;
+        cout << "No se encontr√≥ un Producto con el ID proporcionado." << endl;
     }
 
     cout << "Presione Enter Para Continuar";
@@ -391,14 +389,14 @@ void Horarios::borrar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2204", "ALMB"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2204", "ALMB"); // Par√°metros
 
 
     //Limpia pantalla
