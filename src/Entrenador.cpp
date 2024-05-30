@@ -19,7 +19,7 @@ using namespace std;
 //Constructor alumnos y sus parametros
 Entrenador::Entrenador(string id,string nombre,string nombre2, string Apellido,string Apellido2,string fechadenacimiento)
 {
-    // Asignando los valores de los par·metros a los atributos del objeto
+    // Asignando los valores de los par√°metros a los atributos del objeto
 
 
     this->id = id;
@@ -32,7 +32,7 @@ Entrenador::Entrenador(string id,string nombre,string nombre2, string Apellido,s
 }
 
 
-//Estableciendo la id de los alumnos
+// Id de los alumnos
 string Entrenador::setid(string id)
 {
     this->id = id;
@@ -52,7 +52,7 @@ string Entrenador::setnombre(string nombre)
     return nombre;
 }
 
-//Obteniendo el nombre del alumno
+//OBTENER NOMBRES 
 string Entrenador::getnombre()
 {
     return nombre;
@@ -113,14 +113,14 @@ string Entrenador::getFechanaci()
 void Entrenador::menu()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2200", "ALM"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2200", "ALM"); // Par√°metros
 
     //Definiendo Variable int
     int opcion;
@@ -132,7 +132,7 @@ void Entrenador::menu()
         //Limpiando pantalla
 		system("cls");
 
-		//Se muestra el diseÒo del sistema de gestion de alumnos
+		//Se muestra el dise√±o del sistema de gestion de alumnos
 		cout<<"+-----------------------------------------------+"<<endl;
 		cout<<"|  BIENVENIDO AL SISTEMA DE GESTION DE TRABAJADORES   |"<<endl;
 		cout<<"+-----------------------------------------------------+"<<endl;
@@ -156,7 +156,7 @@ void Entrenador::menu()
 				    //Funcion para insertar un alumno
 					insertar();
 					//Luego de ingresar un alumno mostrara el mensaje
-					cout<<" -> øDeseas ingresar a otro trabajador? (S/N): ";
+					cout<<" -> ¬øDeseas ingresar a otro trabajador? (S/N): ";
 					cin>>continuar;
 
                 //Si la respuesta es s o S, insertara otro estudiante
@@ -198,20 +198,20 @@ void Entrenador::insertar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2201", "ALMI"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2201", "ALMI"); // Par√°metros
 
 
     //Limpiando pantalla
     system("cls");
 
-    //Encabezado del diseÒo insertar estudiante
+    //Encabezado del dise√±o insertar estudiante
     cout<<"+---------------------------------------------------------+"<< endl;
     cout<<"|                Agregar detalles del Trabajador          |"<< endl;
     cout<<"+---------------------------------------------------------+"<< endl;
@@ -268,14 +268,14 @@ void Entrenador::insertar()
 void Entrenador::desplegar()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2202", "ALMD"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2202", "ALMD"); // Par√°metros
 
     //Limpiando pantalla
     system("cls");
@@ -329,14 +329,14 @@ void Entrenador::modificar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2203", "ALMM"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2203", "ALMM"); // Par√°metros
 
 
     //Limpiando pantalla
@@ -387,7 +387,7 @@ void Entrenador::modificar()
 
 
 
-            // Posiciona el puntero de escritura al inicio del registro que se est· modificando
+            // Posiciona el puntero de escritura al inicio del registro que se est√° modificando
             archivo1.seekp(-static_cast<int>(sizeof(EntrenadorC)), ios::cur);
 
             // Escribe  nuevos detalles del entrenador en el archivo
@@ -400,7 +400,7 @@ void Entrenador::modificar()
 
     //si no lo encuentra mostrara el siguiente mensaje
     if (!encontrado) {
-        cout << "No se encontrÛ un Trabajador con el ID proporcionado." << endl;
+        cout << "No se encontr√≥ un Trabajador con el ID proporcionado." << endl;
     }
 
     cout << "Presione Enter Para Continuar";
@@ -412,14 +412,14 @@ void Entrenador::borrar()
 {
 
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2204", "ALMB"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2204", "ALMB"); // Par√°metros
 
 
     //Limpia pantalla
