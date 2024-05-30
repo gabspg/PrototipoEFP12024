@@ -33,14 +33,14 @@ string usuarios::getnombre()
     return nombre;
 }
 
-//Estableciendo contraseÒa
+//Estableciendo contrase√±a
 string usuarios::setcontra(string contra)
 {
     this->contra = contra;
     return contra;
 }
 
-//obteniendo contraseÒa
+//obteniendo contrase√±a
 string usuarios::getcontra()
 {
     return contra;
@@ -50,14 +50,14 @@ string usuarios::getcontra()
 void usuarios::menu()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2100", "GUA"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2100", "GUA"); // Par√°metros
 
     //Variable opc
     int opc;
@@ -67,8 +67,8 @@ void usuarios::menu()
         //Limpiando pantalla
         system("cls");
 
-        //DiseÒo de la tabla de gestion de usuarios
-        cout<<"+-----------------------------------------------+"<<endl;
+        //Dise√±o de la tabla de gestion de usuarios
+                cout<<"+-----------------------------------------------+"<<endl;
 		cout<<"|        Gestion de Usuarios de          |"<<endl;
 		cout<<"+-----------------------------------------------+"<<endl;
 		cout<<"|            1. Agregar Usuario                 |"<<endl;
@@ -121,14 +121,14 @@ void usuarios::menu()
 void usuarios::pideDatos()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2102", "USPD"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2102", "USPD"); // Par√°metros
 
     //Limpiar pantalla
     system("cls");
@@ -148,13 +148,13 @@ void usuarios::pideDatos()
     cout<<"       -> Ingrese una contrasena: ";
     cin.getline(usuario.contra, 80);
 
-    // Abre el archivo "Usuario.dat" en modo de escritura binaria, aÒadiendo datos al final del archivo
+    // Abre el archivo "Usuario.dat" en modo de escritura binaria, a√±adiendo datos al final del archivo
     ofstream archivo("Usuario.dat", ios::binary | ios::app);
 
     // Escribe el contenido de la estructura usuario en el archivo
     archivo.write(reinterpret_cast<const char*>(&usuario), sizeof(usuario));
 
-    // Cierra el archivo despuÈs de escribir
+    // Cierra el archivo despu√©s de escribir
     archivo.close();
 }
 
@@ -162,14 +162,14 @@ void usuarios::pideDatos()
 void usuarios::muestraDatos()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2102", "USMD"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2102", "USMD"); // Par√°metros
 
     //Limpiando pantalla
     system("cls");
@@ -209,14 +209,14 @@ void usuarios::muestraDatos()
 void usuarios::editaDatos()
  {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2103", "USED"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2103", "USED"); // Par√°metros
 
     //Limpiando pantalla
     system("cls");
@@ -256,11 +256,11 @@ void usuarios::editaDatos()
             //Muestra mensajes para poder ingresar los detalles para poder modificar del alumnno
             cout << "Ingrese el nuevo nombre del usuario: ";
             cin >> usuario.nombre;
-            cout << "Ingrese la nueva contraseÒa del usuario: ";
+            cout << "Ingrese la nueva contrase√±a del usuario: ";
             cin >> usuario.contra;
 
 
-            // Posiciona el puntero de escritura al inicio del registro que se est· modificando
+            // Posiciona el puntero de escritura al inicio del registro que se est√° modificando
             archivo.seekp(-static_cast<int>(sizeof(Usuarios)), ios::cur);
 
             // Escribe  nuevos detalles del estudiante en el archivo
@@ -273,7 +273,7 @@ void usuarios::editaDatos()
 
     //si no lo encuentra mostrara el siguiente mensaje
     if (!encontrado) {
-        cout << "No se encontrÛ un usuario con el nombre proporcionado." << endl;
+        cout << "No se encontr√≥ un usuario con el nombre proporcionado." << endl;
     }
 
     //Mensaje al usuario
@@ -286,14 +286,14 @@ void usuarios::editaDatos()
 void usuarios::borraDatos()
 {
     //Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "2104", "USBD"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "2104", "USBD"); // Par√°metros
 
     //Limpiando pantalla
    	system("cls");
