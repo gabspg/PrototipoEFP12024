@@ -12,7 +12,7 @@
 #include <cstdlib>
 #include <ctime>
 #include<iomanip>
-//ImplementaciÛn de Bit·cora realizado por: Pablo Romeo Palencia Rosales 9959-23-736
+//Implementaci√≥n de Bit√°cora realizado por: Pablo Romeo Palencia Rosales 9959-23-736
 #include "Bitacora.h"
 #include"Horarios.h"
 #include"deporte.h"
@@ -23,14 +23,14 @@ string users;
 
 void asignaciom_de_resultados::Menu()
 {//Implementacion de la bitacora
-    // Obtener el usuario actual que ha iniciado sesiÛn
+    // Obtener el usuario actual que ha iniciado sesi√≥n
     string usuarioActual = Login::getUsuarioActual();
 
     // Crear una instancia de la clase Bitacora para registrar el ingreso
     Bitacora bitacora;
 
-    // Registro del ingreso en la bit·cora
-    bitacora.ingresoBitacora(usuarioActual, "4500", "ADR"); // Par·metros
+    // Registro del ingreso en la bit√°cora
+    bitacora.ingresoBitacora(usuarioActual, "4500", "ADR"); // Par√°metros
         int opcion;
         char  x;
         do
@@ -55,7 +55,7 @@ void asignaciom_de_resultados::Menu()
          {
           asignarse_resultado();
             //Realiza el proceso de asignar maestro a curso y se registra en la bitacora
-            bitacora.ingresoBitacora(usuarioActual,"4002","ASG"); //ASG = AsignaciÛn de resultados
+            bitacora.ingresoBitacora(usuarioActual,"4002","ASG"); //ASG = Asignaci√≥n de resultados
             //mandamos a auditoria un ingreso a la bitacora que registra el usuario que realiza dicha accion, el codigo de proceso y la accion que hace
             break;
         }
@@ -91,7 +91,7 @@ void asignaciom_de_resultados::asignarse_resultado()
      system("cls");
     char res='S'; //variable que controla la validacion: Pablo Palencia 9959-23-736
 
-//Proceso asignaciÛn maestro a curso realizado por Kathia Contreras 9959-23-8246
+//Proceso asignaci√≥n maestro a curso realizado por Kathia Contreras 9959-23-8246
 
 int num=1;
 Asignacion Asigna;
@@ -101,7 +101,7 @@ Asignacion Asigna;
 /* **********   DESPLIEGUE Deportes.DAT   ********** */
     cout<<"----------------- Sedes Existentes---------------------"<<endl;
     ifstream archivo11("Deportes.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo11) {
         cout << "No hay Producto registradas." << endl;
         return;
@@ -154,10 +154,10 @@ do
 //------------------------------------------------------------------------------------------------
     string idequipo;
 
-/* **********   DESPLIEGUE EQUIPOS.DAT   ********** */
+/* **********   DESPLIEGUE SEDES.DAT   ********** */
     cout<<"---------------- Productos Existentes---------------------"<<endl;
     ifstream archivo55("Equipos.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo55) {
         cout << "No hay productos registradas." << endl;
         return;
@@ -205,10 +205,10 @@ do
     }while(res=='S');
             system("cls");
 
- // Inicializar el generador de n˙meros aleatorios con una semilla
+ // Inicializar el generador de n√∫meros aleatorios con una semilla
     srand(time(0)); // Establece la semilla basada en el tiempo actual
-    int numero = rand() % 9000 + 1000; // Genera un n˙mero aleatorio
-    // Generar un n˙mero aleatorio para el campo acta
+    int numero = rand() % 9000 + 1000; // Genera un n√∫mero aleatorio
+    // Generar un n√∫mero aleatorio para el campo acta
     Asigna.acta = numero;
     //-----------------------------------------------------------------------------------------------------------------------------
 
@@ -216,7 +216,7 @@ do
 /* **********   DESPLIEGUE productos.DAT   ********** */
     cout<<"---------------- Productos Existentes---------------------"<<endl;
     ifstream archivo7("Entrenadores.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo7) {
         cout << "No hay productos registradas." << endl;
         return;
@@ -272,7 +272,7 @@ system("cls");
 /* **********   DESPLIEGUE productos.DAT   ********** */
     cout<<"---------------- productos existentes---------------------"<<endl;
     ifstream archivo74("Equipos.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo74) {
         cout << "No hay productos registrados." << endl;
         return;
@@ -330,7 +330,7 @@ system("cls");
 /* **********   DESPLIEGUE Entrenadores.DAT   ********** */
     cout<<"---------------- trabajadores existentes---------------------"<<endl;
     ifstream archivo54("Entrenadores.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo54) {
         cout << "No hay trabajadores registrados." << endl;
         return;
@@ -385,7 +385,7 @@ system("cls");
 /* **********   DESPLIEGUE HORARIOS.DAT   ********** */
     cout<<"---------------- Horarios existentes---------------------"<<endl;
     ifstream archivo77("horarios.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo77) {
         cout << "No hay horarios registradas." << endl;
         return;
@@ -450,7 +450,7 @@ system("cls");
     cout << "Asignacion ingresada exitosamente!" << endl;
     cout << "------------------------------------------------" << endl;
 
-    // Mostrar el n˙mero de acta
+    // Mostrar el n√∫mero de acta
 
 
          system("cls");
@@ -465,14 +465,14 @@ void asignaciom_de_resultados::actas()
     system("cls");
     cout << "------------------ ASIGNACIONES TECNOLOGICAS --------------------" << endl << endl;
 
-    // Pedir al usuario que ingrese el n˙mero de acta
+    // Pedir al usuario que ingrese el n√∫mero de acta
     int numeroActa;
     cout << "Ingrese el numero de acta: ";
     cin >> numeroActa;
 
     // Abrir el archivo de aulas en modo lectura binaria
     ifstream archivo("asignaciones.dat", ios::binary);
-    // Verificar si el archivo se abriÛ correctamente
+    // Verificar si el archivo se abri√≥ correctamente
     if (!archivo) {
         cout << "No hay asignaciones registradas." << endl;
         return;
@@ -505,7 +505,7 @@ void asignaciom_de_resultados::actas()
             cout << "--------------------------------------------------------------------------------------" << endl;
             cout << "************************************************************************************************" << endl;
             encontrado = true;
-            break;  // Salir del bucle despuÈs de encontrar el acta
+            break;  // Salir del bucle despu√©s de encontrar el acta
         }
     }
 
